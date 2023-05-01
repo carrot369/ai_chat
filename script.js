@@ -3,7 +3,7 @@ const messageInput = document.getElementById("message-input");
 const chatWindow = document.getElementById("chat-window");
 
 const API_ENDPOINT = "https://api.openai.com/v1/chat/completions";
-const OPENAI_API_KEY = "<YOUR_OPENAI_API_KEY>";
+const OPENAI_API_KEY = "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";
 
 function sendMessage(message) {
   const requestParams = {
